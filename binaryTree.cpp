@@ -12,6 +12,6 @@ public:
     Node()
     {
         leftchild = nullptr;  // Initialize left child to null
-        rightchild = nullptr; // Initialize righ child to null
+        rightchild = nullptr; // Initialize right child to null
     }
 };
