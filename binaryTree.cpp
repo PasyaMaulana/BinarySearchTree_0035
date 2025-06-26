@@ -37,5 +37,9 @@ public:
 
         // Step 2: Assign value
         newNode->info = x;
+
+        // Step 3: Make the left and right child of the new node point to null
+        newNode->leftchild = nullptr;
+        newNode->rightchild = nullptr;
     }
 };
